@@ -1,35 +1,32 @@
-# CrazyLover
-Este script en Python implementa un bot de Telegram que envía piropos románticos a usuarios específicos. El bot utiliza la biblioteca python-telegram-bot para interactuar con la API de Telegram.
+This Python script implements a Telegram bot that sends "romantic compliments" to specific users. The bot uses the _python-telegram-bot_ library to interact with the Telegram API.
 
-# Funcionalidades
-/start: Comando que da la bienvenida al usuario al bot. 
+# Features
+/start: Command that welcomes the user to the bot.
 
-/piropo: Comando que envía piropos románticos al azar a usuarios específicos.
+/compliment: Command that sends random romantic compliments to specific users.
 
-/id: Comando que devuelve la ID de usuario del remitente.
+/id: Command that returns the user ID of the sender.
 
-/whois: Comando que devuelve la ID de otro usuario al responder a su mensaje o reenviarlo.
-# Configuración
-Antes de ejecutar el bot, asegúrate de realizar los siguientes pasos:
+/whois: Command that returns the ID of another user by replying to their message or forwarding it.
 
-### Obtener Token de Telegram:
+# Configuration
+Before running the bot, make sure to follow these steps:
 
-Obtén un token para tu bot de Telegram siguiendo las instrucciones en BotFather.
+### Get Telegram Token:
+Get a token for your Telegram bot by following the instructions on BotFather.
 
-Reemplaza 'TU_TOKEN_DE_TELEGRAM' con el token de tu bot en el script.
-### Definir Lista de Usuarios:
+Replace ‘YOUR_TELEGRAM_TOKEN’ with your bot’s token in the script.
 
-En la variable 'lista_de_usuarios', añade las ID reales de los usuarios a los que deseas enviar piropos.
-### Instalar Dependencias:
+### Define User List:
+In the ‘user_list’ variable, add the real IDs of the users you want to send compliments to.
 
-Instala las dependencias ejecutando.
-```pip install python-telegram-bot```
-### Ejecutar el Script:
+### Install Dependencies:
+Install the dependencies ```pip install python-telegram-bot```
 
-Ejecuta el script para iniciar el bot.
-```
-python3 CrazyLover.py
-```
-# Piropos
-La función 'piropo_al_azar()' elige aleatoriamente un piropo de la lista predefinida. Puedes personalizar la lista según tus preferencias.
- y enviar un pull request.
+### Run the Script:
+Run the script to start the bot.
+
+```python3 CrazyLover.py```
+
+# Compliments
+The ‘random_compliment()’ function randomly chooses a compliment from the predefined list. You can customize the list according to your preferences. and send a pull request.
