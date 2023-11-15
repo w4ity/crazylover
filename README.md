@@ -1,4 +1,4 @@
-# SillyLover
+# CrazyLover
 Este script en Python implementa un bot de Telegram que envía piropos románticos a usuarios específicos. El bot utiliza la biblioteca python-telegram-bot para interactuar con la API de Telegram.
 
 # Funcionalidades
@@ -28,7 +28,7 @@ Instala las dependencias ejecutando.
 
 Ejecuta el script para iniciar el bot.
 ```
-python3 SillyLover.py
+python3 CrazyLover.py
 ```
 # Piropos
 La función 'piropo_al_azar()' elige aleatoriamente un piropo de la lista predefinida. Puedes personalizar la lista según tus preferencias.
